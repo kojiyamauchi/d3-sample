@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*==============================================================================
+
+Core SCSS.
+
+==============================================================================*/
+#app {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.svg-heading {
+  width: auto;
+  overflow: visible;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-180%, -50%);
+  transform: translate(-180%, -50%);
+}
+
+.svg-graphs {
+  width: auto;
+  height: 90vh;
+  overflow: visible;
+  margin: 10vh 0 0;
+}

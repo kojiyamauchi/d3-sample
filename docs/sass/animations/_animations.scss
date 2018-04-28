@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*==============================================================================
+
+Animations SCSS.
+
+==============================================================================*/
+.drawing {
+  visibility: hidden;
+  -webkit-animation: drawing 2.75s ease-in-out 1.25s forwards;
+  animation: drawing 2.75s ease-in-out 1.25s forwards;
+}
+@-webkit-keyframes drawing {
+  0% {
+    visibility: hidden;
+    stroke-dashoffset: 150%;
+    fill: transparent;
+  }
+
+  50% {
+    visibility: visible;
+    fill: transparent;
+  }
+
+  75% {
+    fill: #666;
+  }
+
+  100% {
+    visibility: visible;
+    stroke-dashoffset: 0;
+  }
+}
