@@ -4,7 +4,7 @@
 import * as d3 from 'd3'
 
 // Import Json.
-import favorites from './../../json/favorites.json'
+import favorites from '@/json/favorites'
 
 const introGraphs = () => {
 
