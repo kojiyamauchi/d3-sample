@@ -65,7 +65,7 @@ const introGraphs = () => {
 
     d3.select('.svg-graphs')
       .append('g')
-      .attr('class', 'axis')
+      .classed('axis', true)
       .attr(
         'transform',
         `translate(${[setPaddings.left, setHeight + setPaddings.bottom]})`
@@ -74,7 +74,7 @@ const introGraphs = () => {
 
     d3.select('.svg-graphs')
       .append('g')
-      .attr('class', 'axis')
+      .classed('axis', true)
       .attr(
         'transform',
         `translate(${[setPaddings.left, setPaddings.top * 3]})`
